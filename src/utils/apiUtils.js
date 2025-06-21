@@ -10,9 +10,9 @@ export const hostname = () => {
   let hostUrl = '';
   switch (window.location.hostname) {
     default:
-      // hostUrl = 'https://api-test.highnsky.com.au';
+      hostUrl = 'https://api-test.highnsky.com.au';
       // hostUrl = 'http://192.168.0.242:5001';
-      hostUrl = 'http://127.0.0.1:5001';
+      // hostUrl = 'http://127.0.0.1:5001';
       break;
   }
   return hostUrl;
